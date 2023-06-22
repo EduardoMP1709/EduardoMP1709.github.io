@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <!--Agregando fuente personalizada de Google fonts-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+
+     <!--Importamos iconos de FontAwesome-->
+     <script src="https://kit.fontawesome.com/12eacd23db.js" crossorigin="anonymous"></script>
+
+     <!--Agregamos la dirección de nuestros estilos-->
+     <link rel="stylesheet" href="estilos.css">
+    <title>Ordinario Diseño y Visualización</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <!--Titulo del encabezado-->
+                <h1><i class="fa-solid fa-map-pin"></i> LUGARES DE INTERES TURISTICO</h1>
+        </div>       
+    </header>
+
+        <main class="main">
+            <div>
+                
+                <div>
+                    <h2 class="h2">¿QUE ES MAPILLARY?</h2>
+
+                    <p class="h2">Mapillary es un servicio de street view por crowdsourcing. La compañía fue fundada en 2013 en Malmö, Suecia,
+                        a cargo de Jan Erik Solem y Johan Gyllenspetz y comprada por Meta en 2020.
+                    </p>
+                    <p class="h2">Mapillary ofrece varias modalidades de captura de fotos, vía caminata, 
+                        movilidad (a bicicleta o a motor) y fija y formar un street view. 
+                        Para los puntos de recorrido se emplea el archivo GPX que puede ser compartido públicamente. 
+                        Desde septiembre de 2014, se dio soporte a panoramas y fotografía esférica.
+                    </p>
+
+                    <h3 class="h3"><i class="fa-solid fa-map-pin"></i> 1° lugar de interes: Catemaco, Veracruz</h3>
+                    <p class="h3">Catemaco: Del náhuatl Calli, casas; Tematli, quemar, "Lugar de las casas quemadas".</p>
+                        
+                     <p class="h3">HISTORIA
+                        Su nombre significa casas quemadas, probablemente por los efectos de la erupción del volcán San Martín. 
+                        La cabecera municipal fue fundada en 1774. Durante el siglo XVI, Catemaco pertenecía a la provincia de Santiago Tuxtla. 
+                        Al consumarse la independencia, constituyó una municipalidad, limitando con Mecayapan.</p>
+                        
+                        <p class="h3">Por decreto del 25 de mayo de 1881, el pueblo de Catemaco, del Cantón de los Tuxtlas, se eleva a la categoría política de villa.  
+                        El decreto del 9 de noviembre de 1966, le otorga la categoría política de ciudad a la villa de Catemaco.
+                        </p>
+
+                        <p class="h3">LOCALIZACIÓN
+                        Se localiza en la sierra de los Tuxtlas, en la zona sur del estado, en las coordenadas 18° 25' latitud norte y 
+                        95° 07' longitud oeste, a una altura de 340 metros sobre el nivel del mar. Limita al norte con el Golfo de México,
+                        al este con Mecayapan, al sureste con Soteapan, al sur con Hueyapan de Ocampo y al oeste con San Andrés Tuxtla. 
+                        Su distancia aproximada por carretera a la capital del estado es de 220 Km. </p>
+                </div>
+
+                <div class="mapa">
+                    <!--Agregamos nuestro mapa de mapillary -->
+                    <iframe width="800" height="600" src="https://www.mapillary.com/embed?map_style=Mapillary%20streets&image_key=903447300544571&x=0.5000000000000001&y=0.49999999999999983&style=classic" frameborder="0"></iframe>
+                </div>
+
+                <div class="boton">
+                    <a href="https://www.mapillary.com/" target="_blank">Conoce y explora otros lugares</a>
+                </div>
+
+            </div>
+        </main>
+
+    <!--Se agrega una estructura footer y contenerdores necesarios-->
+    <footer>
+        <div>
+            <p>Diseño y visualización de la Información 6I 2023-A</p>
+            <!--Se agregan los contenedores para las redes sociales-->
+            <div class="media-icons">
+                <a href="https://www.facebook.com/profile.php?id=100012697089437"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/eduardo_mpz/"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.youtube.com/channel/UCsj_KjGyxNU5GW0wjUCzdqQ"><i class="fab fa-youtube"></i></a>
+                <a href="https://twitter.com/Eduardo32641686"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+     </footer>
+
+        <!--Se llama al botón subir-->
+        <button id="go-to-button">
+        <i class="fa-solid fa-angle-up"></i>
+        </button> 
+        <script src="boton.js"></script>
+    </body>
+</html>
